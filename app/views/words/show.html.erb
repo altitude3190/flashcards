@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Language:</strong>
+  <%= @word.language_id %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @word.category_id %>
+</p>
+
+<p>
+  <strong>Word:</strong>
+  <%= @word.word %>
+</p>
+
+<p>
+  <strong>Meaning:</strong>
+  <%= @word.meaning %>
+</p>
+
+<p>
+  <strong>Ruby:</strong>
+  <%= @word.ruby %>
+</p>
+
+<%= link_to 'Edit', edit_word_path(@word) %> |
+<%= link_to 'Back', words_path %>

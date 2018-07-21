@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  language_id: 
+  category_id: 
+  word: MyText
+  meaning: MyText
+  ruby: MyText
+
+two:
+  language_id: 
+  category_id: 
+  word: MyText
+  meaning: MyText
+  ruby: MyText
