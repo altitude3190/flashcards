@@ -6,6 +6,7 @@ class CreateWords < ActiveRecord::Migration
       t.text :word, :null => false
       t.text :meaning, :null => false
       t.text :ruby
+      t.text :pos
     end
     add_index :words, [:language_id, :category_id]
   end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180721073110) do
+ActiveRecord::Schema.define(version: 20181117055720) do
 
   create_table "words", force: :cascade do |t|
     t.integer "language_id", null: false
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20180721073110) do
     t.text    "word",        null: false
     t.text    "meaning",     null: false
     t.text    "ruby"
+    t.text    "pos"
   end
 
   add_index "words", ["language_id", "category_id"], name: "index_words_on_language_id_and_category_id"

@@ -6,6 +6,7 @@ one:
   word: MyText
   meaning: MyText
   ruby: MyText
+  pos: MyText
 
 two:
   language_id: 
@@ -13,3 +14,4 @@ two:
   word: MyText
   meaning: MyText
   ruby: MyText
+  pos: MyText
